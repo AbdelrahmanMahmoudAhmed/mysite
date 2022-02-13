@@ -25,26 +25,27 @@ export default store(function (/* { ssrContext } */) {
           git: "https://github.com/AbdelrahmanMahmoudAhmed/social",
           link: "",
           imgs: [
-            "blog/five.jpeg",
-            "blog/four.jpeg",
-            "blog/three.jpeg",
-            "blog/two.jpg",
-            "blog/one.jpg",
-          ]
+            "blog/blog-one.png",
+            "blog/blog-two.png",
+            "blog/blog-three.png",
+            "blog/blog-four.png",
+            "blog/blog-five.png",
 
+          ]
         },
         {
           id: 2,
           img: "commerce/Home.jpg",
           title: "commerce project",
           language: "vue.js",
-          git: "https://github.com/AbdelrahmanMahmoudAhmed/mira-project",
-          link: "",
+          git: "https://github.com/AbdelrahmanMahmoudAhmed/mira--",
+          link: "https://abdelrahmanmahmoudahmed.github.io/mira--/#/",
           imgs: [
-            "commerce/bag.jpg",
-            "commerce/head-phone.jpg",
-            "commerce/shirt-gift.jpg",
-            "commerce/white-bag.jpg",
+            "commerce/commerce_one.png",
+            "commerce/commerce-two.png",
+            "commerce/commerce-three.png",
+            "commerce/commerce-four.png",
+
           ]
         },
         {
@@ -52,12 +53,16 @@ export default store(function (/* { ssrContext } */) {
           img: "warehouse-app/001_1.png",
           title: "warehouse app",
           language: "jQuery",
-          git: "https://github.com/AbdelrahmanMahmoudAhmed/connect_four",
-          link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/collect_four/",
+          git: "https://github.com/AbdelrahmanMahmoudAhmed/warehouse-project",
+          link: "https://abdelrahmanmahmoudahmed.github.io/warehouse-project-demo/#/",
           imgs: [
-            "warehouse-app/001.png",
-            "warehouse-app/004.png",
+            // "warehouse-app/001.png",
             "warehouse-app/005.png",
+
+            "warehouse-app/warehouse-three.png",
+            "warehouse-app/warehouse-two.png",
+            "warehouse-app/warehouse-one.png",
+            "warehouse-app/004.png",
           ]
         },
 
@@ -69,8 +74,11 @@ export default store(function (/* { ssrContext } */) {
           git: "https://github.com/AbdelrahmanMahmoudAhmed/connect_four",
           link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/collect_four/",
           imgs: [
-            "collect-four/backGroundPP.jpg",
-            "collect-four/collect-one.jpg",
+
+            "collect-four/connect-one.jpg",
+            "collect-four/connect-two.jpg",
+            "collect-four/connect-three.jpg",
+            "collect-four/connect-four.jpg",
 
           ]
         },
@@ -83,9 +91,11 @@ export default store(function (/* { ssrContext } */) {
           git: "",
           link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/first_project/",
           imgs: [
-            "first-p/blog-4.jpg",
-            "first-p/blog-5.jpg",
-            "first-p/blog-6.jpg",
+
+
+            "first-p/first-one.png",
+            "first-p/first-two.png",
+            "first-p/first-three.png",
           ]
         },
         {
@@ -96,8 +106,8 @@ export default store(function (/* { ssrContext } */) {
           git: "",
           link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/temb-one/",
           imgs: [
-            "temp-one/portfolio-three.jpg",
-            "temp-one/potfolio-two.jpg",
+            "temp-one/temp-one.png",
+            "temp-one/temp-two.png",
           ]
         },
         {
@@ -108,10 +118,12 @@ export default store(function (/* { ssrContext } */) {
           git: "",
           link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/temb-two/",
           imgs: [
-            "second-p/shuffle-01.jpg",
-            "second-p/shuffle-02.jpg",
-            "second-p/shuffle-03.jpg",
-            "second-p/shuffle-08.jpg",
+
+
+            "second-p/owl-one.png",
+            "second-p/owl-two.png",
+            "second-p/owl-three.png",
+
           ]
         },
 

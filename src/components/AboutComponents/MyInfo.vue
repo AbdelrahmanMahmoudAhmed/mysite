@@ -23,10 +23,14 @@
           <span class="item-info">egyption</span>
         </div>
 
-        <!-- <div class="item-container">
-          <span class="item-title"></span>
-          <span class="item-info"></span>
-        </div> -->
+        <div class="item-container">
+          <span class="item-title">E-mail _ 1 : </span>
+          <span class="item-info"
+            ><a href="mailto:abdelrahman.mahmoud.ahmed@gmail.com"
+              >mail me</a
+            ></span
+          >
+        </div>
       </div>
       <div class="info-col">
         <div class="item-container">
@@ -48,8 +52,12 @@
         </div>
 
         <div class="item-container">
-          <span class="item-title"></span>
-          <span class="item-info"></span>
+          <span class="item-title">E-mail _ 2 : </span>
+          <span class="item-info"
+            ><a href="mailto:abdelrahman.mahmoud.ahmed@outlook.com"
+              >mail me</a
+            ></span
+          >
         </div>
       </div>
     </div>
@@ -103,6 +111,7 @@ export default {
     //   }
     // }
     .info-col {
+      width: 50%;
       .item-container {
         padding-bottom: 20px;
         .item-title {
@@ -115,6 +124,12 @@ export default {
           font-size: $mainFontSize;
           font-weight: bold;
           margin-left: 10px;
+          word-break: break-word;
+          > a {
+            color: $mainColor;
+            cursor: pointer;
+            text-decoration: underline;
+          }
         }
       }
       @media (max-width: 578px) {
