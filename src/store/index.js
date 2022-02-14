@@ -23,7 +23,7 @@ export default store(function (/* { ssrContext } */) {
           title: "blog project",
           language: "react.js",
           git: "https://github.com/AbdelrahmanMahmoudAhmed/social",
-          link: "",
+          link: "https://abdelrahmanmahmoudahmed.github.io/social/",
           imgs: [
             "blog/blog-one.png",
             "blog/blog-two.png",
