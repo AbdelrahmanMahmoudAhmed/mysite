@@ -6,24 +6,16 @@
       <template #hidden>work </template>
     </Title>
     <div class="portfolio-content" v-if="data.length">
-      <div
-        class="potfolio-item"
-        v-for="(item, i) in data"
-        :key="i"
-        @click="setData"
-      >
+      <div class="potfolio-item" v-for="(item, i) in data" :key="i">
         <div class="portfolio-pic">
           <img :src="require('../assets/' + item.img)" alt="" />
         </div>
-        <div class="link" @click="toggleComp">
-          <!-- <router-link :to="{ path: '/portfolio/' + item.id, props: true }"> -->
-          <span :id="item.id"> {{ item.title }} </span>
-          <!-- </router-link> -->
+        <div class="link">
+          <router-link :to="{ path: '/portfolio/' + item.id, props: true }">
+            <span :id="item.id"> {{ item.title }} </span>
+          </router-link>
         </div>
       </div>
-    </div>
-    <div v-if="compState">
-      <one-project @toggleComp="toggleComp" />
     </div>
   </div>
 </template>
@@ -32,36 +24,22 @@
 import Title from "src/components/Title.vue";
 import { ref, onMounted } from "vue";
 import { useStore } from "vuex";
-import OneProject from "src/components/OneProject.vue";
 
 export default {
   components: {
     Title,
-    OneProject,
   },
   setup() {
     const store = useStore();
-    const compState = ref(false);
-    const toggleComp = () => {
-      if (!compState.value) {
-        compState.value = true;
-      } else if (compState.value) {
-        compState.value = false;
-      }
-    };
+
     const data = ref([]);
-    const setData = (e) => {
-      store.commit("filterProject", e.target.querySelector("span").id);
-    };
+
     onMounted(() => {
       data.value = store.state.data;
     });
 
     return {
       data,
-      setData,
-      compState,
-      toggleComp,
     };
   },
 };
@@ -89,7 +67,14 @@ export default {
       .link {
         opacity: 1;
         z-index: 2;
-
+        a {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          display: block;
+        }
         span {
           top: 48%;
         }

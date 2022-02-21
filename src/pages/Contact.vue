@@ -204,5 +204,8 @@ export default {
       width: 100%;
     }
   }
+  @media (max-width: 992px) {
+    margin-bottom: 100px;
+  }
 }
 </style>

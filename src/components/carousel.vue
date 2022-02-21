@@ -33,4 +33,12 @@ export default {
 .q-carousel__arrow {
   color: $mainColor !important;
 }
+.q-carousel.q-panel-parent.q-carousel--without-padding.q-carousel--arrows-horizontal.q-carousel--navigation-bottom {
+  @media (max-width: 576px) {
+    max-height: 200px;
+  }
+}
+.q-panel.scroll {
+  background-color: #111111;
+}
 </style>

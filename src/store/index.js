@@ -2,6 +2,8 @@ import { store } from 'quasar/wrappers'
 import { createStore } from 'vuex'
 
 
+
+
 // import example from './module-example'
 
 /*
@@ -14,6 +16,7 @@ import { createStore } from 'vuex'
  */
 
 export default store(function (/* { ssrContext } */) {
+
   const Store = createStore({
     state: {
       data: [
@@ -54,11 +57,9 @@ export default store(function (/* { ssrContext } */) {
           title: "warehouse app",
           language: "jQuery",
           git: "https://github.com/AbdelrahmanMahmoudAhmed/warehouse-project",
-          link: "https://abdelrahmanmahmoudahmed.github.io/warehouse-project-demo/#/",
+          link: "https://abdelrahmanmahmoudahmed.github.io/warehouse-project/#/",
           imgs: [
-            // "warehouse-app/001.png",
             "warehouse-app/005.png",
-
             "warehouse-app/warehouse-three.png",
             "warehouse-app/warehouse-two.png",
             "warehouse-app/warehouse-one.png",
@@ -88,7 +89,7 @@ export default store(function (/* { ssrContext } */) {
           img: "first-p/about.jpg",
           title: "website page",
           language: "HTML , CSS",
-          git: "",
+          git: "https://github.com/AbdelrahmanMahmoudAhmed/-html-css_temp-three",
           link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/first_project/",
           imgs: [
 
@@ -103,7 +104,7 @@ export default store(function (/* { ssrContext } */) {
           img: "temp-one/zza.jpg",
           title: "website page",
           language: "HTML , CSS",
-          git: "",
+          git: "https://github.com/AbdelrahmanMahmoudAhmed/html-css_temp-one",
           link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/temb-one/",
           imgs: [
             "temp-one/temp-one.png",
@@ -115,7 +116,7 @@ export default store(function (/* { ssrContext } */) {
           img: "second-p/owl.jpg",
           title: "website page",
           language: "HTML , CSS",
-          git: "",
+          git: "https://github.com/AbdelrahmanMahmoudAhmed/html-css_temp-two",
           link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/temb-two/",
           imgs: [
 

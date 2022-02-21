@@ -27,7 +27,7 @@
           <span class="item-title">E-mail _ 1 : </span>
           <span class="item-info"
             ><a href="mailto:abdelrahman.mahmoud.ahmed@gmail.com"
-              >mail me</a
+              >abdelrahman.mahmoud.ahmed@gmail.com</a
             ></span
           >
         </div>
@@ -55,7 +55,7 @@
           <span class="item-title">E-mail _ 2 : </span>
           <span class="item-info"
             ><a href="mailto:abdelrahman.mahmoud.ahmed@outlook.com"
-              >mail me</a
+              >abdelrahman.mahmoud.ahmed@outlook.com</a
             ></span
           >
         </div>
@@ -97,19 +97,8 @@ export default {
   .my-info-container {
     padding-top: 30px;
     display: flex;
-    justify-content: start;
     gap: 20%;
-    // @media (min-width: 578px) {
-    //   width: 80%;
-    //   margin: auto;
-    // }
-    // @media (max-width: 577px) {
-    //   flex-direction: column;
-    //   align-items: center;
-    //   .info-col {
-    //     text-align: center;
-    //   }
-    // }
+
     .info-col {
       width: 50%;
       .item-container {
