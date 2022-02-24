@@ -20,7 +20,7 @@
           </div>
         </li>
         <li class="contact-li">
-          <q-icon name="drafts" />
+          <q-icon name="phone" />
           <div class="details">
             <span>call me</span>
             <p>01099757763 / 01212136928</p>
