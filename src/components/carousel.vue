@@ -41,4 +41,20 @@ export default {
 .q-panel.scroll {
   background-color: #111111;
 }
+.q-carousel__control.q-carousel__arrow.q-carousel__next-arrow.q-carousel__next-arrow--horizontal.absolute.flex.flex-center {
+  @media (min-width: 1200px) {
+    right: 150px;
+  }
+  @media (min-width: 992px) {
+    right: 100px;
+  }
+}
+.q-carousel__control.q-carousel__arrow.q-carousel__prev-arrow.q-carousel__prev-arrow--horizontal.absolute.flex.flex-center {
+  @media (min-width: 1200px) {
+    left: 150px;
+  }
+  @media (min-width: 992px) {
+    left: 100px;
+  }
+}
 </style>

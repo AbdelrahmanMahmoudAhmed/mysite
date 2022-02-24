@@ -10,41 +10,40 @@
 </template>
 
 <script>
-import {ref} from "vue"
+import { ref } from "vue";
 export default {
-    setup(){
-        let data = ref([
-            {
-                num: 12 ,
-                contOne : "years of",
-                contTwo: "exprience"
-            },
-             {
-                num: 97 ,
-                contOne : "completed",
-                contTwo: "projects"
-            },
-             {
-                num: 81 ,
-                contOne : "happy",
-                contTwo: "customers"
-            },
-             {
-                num: 53 ,
-                contOne : "awards",
-                contTwo: "won"
-            },
-        ])
+  setup() {
+    let data = ref([
+      {
+        num: 9,
+        contOne: "years of",
+        contTwo: "exprience",
+      },
+      {
+        num: 18,
+        contOne: "Web Development ",
+        contTwo: "projects",
+      },
+      {
+        num: 28,
+        contOne: "happy",
+        contTwo: "customers",
+      },
+      {
+        num: 12,
+        contOne: "successful marketing",
+        contTwo: "campaigns",
+      },
+    ]);
 
-        return{
-            data,
-        }
-    }
-
-}
+    return {
+      data,
+    };
+  },
+};
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 .overview {
   display: grid;
   grid-template-columns: repeat(2, minmax(50px, 1fr));
