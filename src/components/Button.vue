@@ -34,7 +34,6 @@ export default {
   text-decoration: none;
   position: relative;
   z-index: 1;
-  padding: 16px 70px 16px 35px;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
@@ -60,7 +59,15 @@ export default {
   }
   .button-content {
     position: relative;
+    display: block;
+    height: 110%;
+    width: 110%;
     a {
+        padding: 15px 70px 15px 25px;
+        display: block;
+        position: relative;
+        z-index: 5;
+
     }
   }
   .button-icon {

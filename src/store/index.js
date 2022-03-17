@@ -22,17 +22,16 @@ export default store(function (/* { ssrContext } */) {
       data: [
         {
           id: 1,
-          img: "blog/five.jpeg",
-          title: "blog project",
-          language: "react.js",
-          git: "https://github.com/AbdelrahmanMahmoudAhmed/social",
-          link: "https://abdelrahmanmahmoudahmed.github.io/social/",
+          img: "valeria-freesia/main.jpg",
+          title: "landing page",
+          language: "quasar , vue.js",
+          git: "https://github.com/AbdelrahmanMahmoudAhmed/valeria-and-freesia",
+          link: "https://valeria-and-freesia.web.app/#/",
           imgs: [
-            "blog/blog-one.png",
-            "blog/blog-two.png",
-            "blog/blog-three.png",
-            "blog/blog-four.png",
-            "blog/blog-five.png",
+            "valeria-freesia/CaptureOne.png",
+            "valeria-freesia/CaptureTwo.png",
+            "valeria-freesia/CaptureThree.png",
+     
 
           ]
         },
@@ -51,6 +50,7 @@ export default store(function (/* { ssrContext } */) {
 
           ]
         },
+        
         {
           id: 3,
           img: "warehouse-app/001_1.png",
@@ -66,9 +66,26 @@ export default store(function (/* { ssrContext } */) {
             "warehouse-app/004.png",
           ]
         },
-
         {
           id: 4,
+          img: "blog/five.jpeg",
+          title: "blog project",
+          language: "react.js",
+          git: "https://github.com/AbdelrahmanMahmoudAhmed/social",
+          link: "https://abdelrahmanmahmoudahmed.github.io/social/",
+          imgs: [
+            "blog/blog-one.png",
+            "blog/blog-two.png",
+            "blog/blog-three.png",
+            "blog/blog-four.png",
+            "blog/blog-five.png",
+
+          ]
+        },
+    
+
+        {
+          id: 5,
           img: "collect-four/backGroundPP.jpg",
           title: "collect-four game",
           language: "jQuery",
@@ -85,7 +102,7 @@ export default store(function (/* { ssrContext } */) {
         },
 
         {
-          id: 5,
+          id: 6,
           img: "first-p/about.jpg",
           title: "website page",
           language: "HTML , CSS",
@@ -100,19 +117,19 @@ export default store(function (/* { ssrContext } */) {
           ]
         },
         {
-          id: 6,
+          id: 7,
           img: "temp-one/zza.jpg",
           title: "website page",
           language: "HTML , CSS",
           git: "https://github.com/AbdelrahmanMahmoudAhmed/html-css_temp-one",
-          link: "https://abdelrahman-mahmoud-ahmed.000webhostapp.com/temb-one/",
+          link: "https://abdelrahmanmahmoudahmed.github.io/-html-css_temp-three/",
           imgs: [
             "temp-one/temp-one.png",
             "temp-one/temp-two.png",
           ]
         },
         {
-          id: 7,
+          id: 8,
           img: "second-p/owl.jpg",
           title: "website page",
           language: "HTML , CSS",
